@@ -2,29 +2,30 @@
 
 **Wire AI into the boring, repeatable parts of sales admin so you can spend your hours on the parts that actually need a human.**
 
+
 You'll use tools you already have (Claude, ChatGPT, and whatever CRM/calendar/docs you run) and a set of reusable "workflows" written in plain language that the AI follows step by step.
 
 Written from real experience automating sales and revenue operations, translated into tool-agnostic patterns you can adapt to any stack.
 
 ## What's inside
 
-### 🧩 [Workflows](./workflows/)
+### 🧩 Workflows
 Copy-paste AI workflows for the repetitive parts of the job. Each one is written as an instruction set you hand to Claude or a custom GPT.
 
 | Workflow | What it automates |
 |---|---|
-| [Post-meeting processor](./workflows/post-meeting-processor.md) | Turn a call recording into a summary, CRM note, tasks, and a follow-up draft |
-| [Pre-call research brief](./workflows/pre-call-research-brief.md) | Auto-build a briefing on any prospect before you talk to them |
-| [Pipeline hygiene review](./workflows/pipeline-hygiene-review.md) | Weekly audit that flags stalled and at-risk deals |
+| [Post-meeting processor](./post-meeting-processor.md) | Turn a call recording into a summary, CRM note, tasks, and a follow-up draft |
+| [Pre-call research brief](./pre-call-research-brief.md) | Auto-build a briefing on any prospect before you talk to them |
+| [Pipeline hygiene review](./pipeline-hygiene-review.md) | Weekly audit that flags stalled and at-risk deals |
 
-### 📐 [Guides](./guides/)
+### 📐 Guides
 The thinking behind the workflows, so you can build your own.
 
 | Guide | What it teaches |
 |---|---|
-| [How to design an AI workflow](./guides/how-to-design-an-ai-workflow.md) | The anatomy of a reliable, repeatable AI instruction set |
-| [Connecting AI to your tools](./guides/connecting-ai-to-your-tools.md) | Plain-English intro to giving AI access to your CRM, calendar, and docs |
-| [Keeping a human in the loop](./guides/keeping-a-human-in-the-loop.md) | Where to let AI run and where to make it stop and ask |
+| [How to design an AI workflow](./how-to-design-an-ai-workflow.md) | The anatomy of a reliable, repeatable AI instruction set |
+| [Connecting AI to your tools](./connecting-ai-to-your-tools.md) | Plain-English intro to giving AI access to your CRM, calendar, and docs |
+| [Keeping a human in the loop](./keeping-a-human-in-the-loop.md) | Where to let AI run and where to make it stop and ask |
 
 ## The core idea
 
@@ -37,14 +38,14 @@ A good workflow has four parts:
 3. **Steps** — the exact sequence, in order, with rules for edge cases
 4. **Stops** — the points where it must pause and get your approval before doing something irreversible
 
-Master those four and you can automate almost any recurring sales task. The [design guide](./guides/how-to-design-an-ai-workflow.md) goes deep; the [workflows](./workflows/) are working examples to copy.
+Master those four and you can automate almost any recurring sales task. The [design guide](./how-to-design-an-ai-workflow.md) goes deep; the workflows above are working examples to copy.
 
 ## How to use these
 
 - **No tools connected?** The workflows still work as smart prompts — you paste in the transcript, the AI produces the summary and drafts, you copy the output where it needs to go.
-- **Tools connected?** (Claude with connectors, or a custom GPT with actions.) The AI does the copying too. See [connecting AI to your tools](./guides/connecting-ai-to-your-tools.md).
+- **Tools connected?** (Claude with connectors, or a custom GPT with actions.) The AI does the copying too. See [connecting AI to your tools](./connecting-ai-to-your-tools.md).
 
-Start with the [post-meeting processor](./workflows/post-meeting-processor.md). It saves the most time on day one.
+Start with the [post-meeting processor](./post-meeting-processor.md). It saves the most time on day one.
 
 ## Who made this
 
@@ -59,3 +60,4 @@ If this saved you an afternoon, ⭐ star it.
 ## License
 
 MIT. Use it, adapt it, sell more.
+
