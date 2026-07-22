@@ -1,10 +1,8 @@
 # AI Sales Automation for Founders
 
-**Stop doing the admin. Wire AI into the boring, repeatable parts of sales so you can spend your hours on the parts that actually need a human.**
+**Wire AI into the boring, repeatable parts of sales admin so you can spend your hours on the parts that actually need a human.**
 
-Every founder-led sales motion drowns in the same busywork: logging meetings, chasing follow-ups, updating the CRM, prepping for calls. None of it needs your brain. All of it eats your week.
-
-This repo shows you how to hand that work to AI, without building software. You'll use tools you already have (Claude, ChatGPT, and whatever CRM/calendar/docs you run) and a set of reusable "workflows" written in plain language that the AI follows step by step.
+You'll use tools you already have (Claude, ChatGPT, and whatever CRM/calendar/docs you run) and a set of reusable "workflows" written in plain language that the AI follows step by step.
 
 Written from real experience automating sales and revenue operations, translated into tool-agnostic patterns you can adapt to any stack.
 
